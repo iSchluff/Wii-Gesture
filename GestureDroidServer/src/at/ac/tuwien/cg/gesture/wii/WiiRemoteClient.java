@@ -274,7 +274,6 @@ public class WiiRemoteClient {
 		
 		MotionPlusListener motionPlusListener = new MotionPlusListener() {
 			
-			@Override
 			public void speedChanged(MotionPlusEvent evt) {
 				motionPlusEvent=evt;
 				// TODO Auto-generated method stub
@@ -286,7 +285,6 @@ public class WiiRemoteClient {
 		
 		CoreButtonListener buttonListener = new CoreButtonListener() {
 			
-			@Override
 			public void buttonPressed(CoreButtonEvent evt) {
 				
 				

@@ -52,7 +52,7 @@ public class MotionPlus extends AbstractExtension implements DataListener{
 	private long lastEvtTime;
 	private WiiMotionPlusCalibrationData localWiiMotionPlusCalibrationData;
 		
-	@Override
+	
 	public void initialize() {
 		
 		yawCalibrationData = new Vector<Integer>(calibationLength,calibationLength);
@@ -64,12 +64,12 @@ public class MotionPlus extends AbstractExtension implements DataListener{
 //		System.out.println("MotionPlus initilized");
 	}
 
-	@Override
+	
 	public void parseExtensionData(byte[] extensionData) {
 		fireEvent(extensionData);
 	}
 
-	@Override
+	
 	public void setMote(Mote mote) {
 		// TODO Auto-generated method stub
 		this.mote = mote;
@@ -157,7 +157,7 @@ public class MotionPlus extends AbstractExtension implements DataListener{
 		
 	}
 
-	@Override
+	
 	public void dataRead(DataEvent evt) {
 		// TODO Auto-generated method stub
 	}

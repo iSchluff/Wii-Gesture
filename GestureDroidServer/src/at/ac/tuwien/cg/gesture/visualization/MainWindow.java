@@ -88,7 +88,6 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 	/**
 	 * The window will be redrawn
 	 */
-	@Override
 	public void display(GLAutoDrawable drawable) {
 		GL gl = drawable.getGL();
 		mainWinGl = drawable.getGL();
@@ -100,7 +99,6 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 			rl.drawMainWinLoop(mainWinGl);
 	}
 
-	@Override
 	public void displayChanged(GLAutoDrawable drawable, boolean modeChanged, boolean deviceChanged) {
 		// TODO Auto-generated method stub
 		
@@ -109,7 +107,6 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 	/**
 	 * OpenGL Init
 	 */
-	@Override
 	public void init(GLAutoDrawable drawable) {
 		GL gl = drawable.getGL();
 		mainWinGl = drawable.getGL();
@@ -135,7 +132,7 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 	/**
 	 * Called if the window's size change
 	 */
-	@Override
+	
 	public void reshape(GLAutoDrawable drawable, int x, int y, int width, int height) {
 		// TODO Auto-generated method stub
 		
@@ -163,7 +160,7 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 	}
 	
 	
-	@Override
+	
 	public void keyPressed(KeyEvent e) {
 		
 		
@@ -228,7 +225,7 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 		}
 	}
 
-	@Override
+	
 	public void keyReleased(KeyEvent e) {
 		
 		if(e.getKeyCode()==KeyEvent.VK_CONTROL)
@@ -239,13 +236,13 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 		
 	}
 
-	@Override
+	
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void mouseWheelMoved(MouseWheelEvent e) {
 		
 		//UP
@@ -265,25 +262,25 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 		}	
 	}
 
-	@Override
+	
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void mouseEntered(MouseEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void mouseExited(MouseEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void mousePressed(MouseEvent e) {
 		if(e.getButton()==MouseEvent.BUTTON3)
 		{
@@ -293,7 +290,7 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 		}
 	}
 
-	@Override
+	
 	public void mouseReleased(MouseEvent e) {
 		if(e.getButton()==MouseEvent.BUTTON3)
 		{
@@ -301,7 +298,7 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 		}
 	}
 
-	@Override
+	
 	public void mouseDragged(MouseEvent e) {
 		//if(mouseIsPressed && (mousePositionActually.x != mousePositionPressed.x)
 			//		      && (mousePositionActually.y != mousePositionPressed.y))
@@ -336,7 +333,7 @@ public class MainWindow extends JXFrame implements GLEventListener,MouseWheelLis
 		}
 	}
 
-	@Override
+	
 	public void mouseMoved(MouseEvent arg0) {
 	}
 	

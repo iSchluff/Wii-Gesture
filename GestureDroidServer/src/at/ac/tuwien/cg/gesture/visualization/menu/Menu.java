@@ -479,7 +479,7 @@ public class Menu implements ActionListener,ChangeListener,ItemListener{
 	}
 
 
-	@Override
+	
 	public void actionPerformed(ActionEvent actionEvent) {
 		
 		String actionSrc = actionEvent.getActionCommand();
@@ -520,7 +520,7 @@ public class Menu implements ActionListener,ChangeListener,ItemListener{
 		statusTextArea.setText(MenuLogic.statusText);
 	}
 
-	@Override
+	
 	public void stateChanged(ChangeEvent e) {
 		
 		Object source = e.getSource();
@@ -549,7 +549,7 @@ public class Menu implements ActionListener,ChangeListener,ItemListener{
 		
 	}
 
-	@Override
+	
 	public void itemStateChanged(ItemEvent e) {
 		
 		Object source = e.getSource();

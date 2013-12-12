@@ -74,84 +74,84 @@ public class GForceVis extends JXFrame implements GLEventListener,
 		add(gfMenuBar.getMenuBar(), BorderLayout.WEST);
 	}
 
-	@Override
+	
 	public void mouseClicked(MouseEvent arg0)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void mouseEntered(MouseEvent arg0)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void mouseExited(MouseEvent arg0)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void mousePressed(MouseEvent arg0)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void mouseReleased(MouseEvent arg0)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void mouseDragged(MouseEvent arg0)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void mouseMoved(MouseEvent arg0)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void keyPressed(KeyEvent e)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void keyReleased(KeyEvent e)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void keyTyped(KeyEvent e)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void mouseWheelMoved(MouseWheelEvent e)
 	{
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+	
 	public void display(GLAutoDrawable drawable)
 	{
 		GL gl = drawable.getGL();
@@ -336,7 +336,7 @@ public class GForceVis extends JXFrame implements GLEventListener,
 		gl.glFlush();
 	}
 
-	@Override
+	
 	public void displayChanged(GLAutoDrawable drawable, boolean modeChanged,
 			boolean deviceChanged)
 	{
@@ -344,7 +344,7 @@ public class GForceVis extends JXFrame implements GLEventListener,
 
 	}
 
-	@Override
+	
 	public void init(GLAutoDrawable drawable)
 	{
 
@@ -380,7 +380,7 @@ public class GForceVis extends JXFrame implements GLEventListener,
 		rl.start();
 	}
 
-	@Override
+	
 	public void reshape(GLAutoDrawable arg0, int arg1, int arg2, int arg3,
 			int arg4)
 	{

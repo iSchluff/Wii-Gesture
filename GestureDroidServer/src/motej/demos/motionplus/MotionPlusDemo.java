@@ -233,7 +233,6 @@ public class MotionPlusDemo  implements MoteFinderListener, ExtensionListener, M
 
 
 
-	@Override
 	public void speedChanged(MotionPlusEvent evt) {
 		
 		yawSpeed.setText( new Double( evt.getYawLeftSpeed() ).toString() );
